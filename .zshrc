@@ -60,7 +60,7 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 export PATH="$HOME/.fastlane/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH" # brew
-export PATH="$HOME/.composer/vendor/bin:$PATH"
+export PATH=$PATH:$HOME/.composer/vendor/bin
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
