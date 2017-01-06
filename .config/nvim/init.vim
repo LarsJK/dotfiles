@@ -108,3 +108,7 @@ noremap <C-h> <C-w>h
 noremap <C-j> <C-w>j
 noremap <C-k> <C-w>k
 noremap <C-l> <C-w>l
+
+" Make copy paste work with clipboard
+set mouse= " Use os selection instead of neovim selection
+set cb=unnamedplus
