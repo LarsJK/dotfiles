@@ -53,16 +53,19 @@ brew 'pkg-config'
 brew 'reattach-to-user-namespace'
 brew 'ruby'
 brew 'sourcekitten'
+brew 'swiftlint'
 brew 'tmux'
 brew 'tree'
 brew 'unibilium'
 brew 'unixodbc'
+brew 'watchman'
 brew 'yarn'
 brew 'zsh'
 brew 'zsh-completions'
 brew 'zsh-syntax-highlighting'
 brew 'homebrew/php/php71'
 brew 'homebrew/php/php-code-sniffer'
+brew 'homebrew/php/php71-xdebug'
 brew 'homebrew/php/phpunit'
 brew 'neovim/neovim/neovim'
 cask 'alfred'
@@ -73,9 +76,11 @@ cask 'fastlane'
 cask 'gitup'
 cask 'google-chrome-canary'
 cask 'gpgtools'
+cask 'haskell-for-mac'
 cask 'iterm2'
 cask 'lego-digital-designer'
 cask 'omnifocus'
+cask 'phpstorm-eap'
 cask 'postman'
 cask 'sequel-pro'
 cask 'sketch'
@@ -84,7 +89,9 @@ cask 'visual-studio-code'
 mas 'Kaleidoscope', id: 587512244
 mas 'Keynote', id: 409183694
 mas 'Kindle', id: 405399194
+mas 'OmniGraffle', id: 1142578753
 mas 'GarageBand', id: 682658836
+mas 'Haskell', id: 841285201
 mas '1Password', id: 443987910
 mas 'Tweetbot', id: 557168941
 mas 'Paste', id: 967805235
