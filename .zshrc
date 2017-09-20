@@ -87,3 +87,5 @@ export PATH=$PATH:$HOME/.composer/vendor/bin
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim=nvim
+if which swiftenv > /dev/null; then eval "$(swiftenv init -)"; fi
+fpath=(/usr/local/share/zsh-completions $fpath)

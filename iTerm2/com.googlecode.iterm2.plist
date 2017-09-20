@@ -356,6 +356,8 @@
 	</dict>
 	<key>Default Bookmark Guid</key>
 	<string>CDD5FBB7-6A9D-4AE4-86CF-297F98F9915F</string>
+	<key>HotkeyMigratedFromSingleToMulti</key>
+	<true/>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSFontPanelAttributes</key>
@@ -379,7 +381,7 @@
 	gAKACoAN0xAJChEVGVdOUy5rZXlzoxITFIADgASABaMWFxiABoAHgAiACVpJZGVudGlm
 	aWVyVVdpZHRoVkhpZGRlblEwI0BowAAAAAAACNIhIiMkWiRjbGFzc25hbWVYJGNsYXNz
 	ZXNcTlNEaWN0aW9uYXJ5oiMlWE5TT2JqZWN00xAJCicrGaMSExSAA4AEgAWjLC0YgAuA
-	DIAIgAlRMSNAdCAAAAAAANIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
+	DIAIgAlRMSNAdKAAAAAAANIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
 	TlNLZXllZEFyY2hpdmVy0Tg5VUFycmF5gAEACAARABoAIwAtADIANwBGAEwAUQBcAGMA
 	ZgBoAGoAbABzAHsAfwCBAIMAhQCJAIsAjQCPAJEAnACiAKkAqwC0ALUAugDFAM4A2wDe
 	AOcA7gDyAPQA9gD4APwA/gEAAQIBBAEGAQ8BFAEjAScBLwFBAUQBSgAAAAAAAAIBAAAA
@@ -405,13 +407,13 @@
 	<key>NSWindow Frame Preferences</key>
 	<string>269 194 606 456 0 0 1680 1027 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>970 789 620 392 0 0 2560 1418 </string>
+	<string>530 495 620 392 0 0 1680 1028 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>203 334 918 381 0 0 1680 1028 </string>
+	<string>203 446 918 401 0 0 1680 1028 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1543 80 1010 1338 0 0 2560 1418 </string>
+	<string>556 576 650 452 0 0 1680 1028 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>2073 -220 650 452 1680 -390 2560 1418 </string>
+	<string>684 233 650 452 0 0 2560 1417 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1147,6 +1149,10 @@
 	<false/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>504625495.60975897</real>
+	<key>PasteTabToStringTabStopSize</key>
+	<integer>4</integer>
+	<key>PerformDNSLookups</key>
+	<false/>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -1191,7 +1197,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-03-09T09:07:12Z</date>
+	<date>2017-09-19T20:22:57Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
@@ -1203,7 +1209,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.14</string>
+	<string>3.1.0</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
