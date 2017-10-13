@@ -1,0 +1,13 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontLigatures": true,
+    "terminal.external.osxExec": "iTerm2.app",
+    "editor.wordWrap": false,
+    "editor.formatOnSave": true,
+    "prettier.singleQuote": true
+}

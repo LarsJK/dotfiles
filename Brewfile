@@ -44,8 +44,9 @@ brew "libusb-compat"
 brew "libuv"
 brew "libvterm"
 brew "libyaml"
+brew "marathon-swift"
 brew "mas"
-brew "mobile-shell"
+brew "mosh"
 brew "msgpack"
 brew "unibilium"
 brew "neovim"
@@ -75,6 +76,7 @@ brew "zsh-syntax-highlighting"
 brew "d12frosted/emacs-plus/emacs-plus", args: ["HEAD"]
 brew "homebrew/php/boris"
 brew "homebrew/php/php-code-sniffer"
+brew "homebrew/php/php-cs-fixer"
 brew "homebrew/php/php71-xdebug"
 brew "homebrew/php/phpmd"
 brew "homebrew/php/phpunit"
@@ -86,12 +88,12 @@ brew "vapor/tap/vapor"
 cask "alfred"
 cask "arq"
 cask "charles"
+cask "cheatsheet"
 cask "cloak"
 cask "crosspack-avr"
 cask "docker"
 cask "fastlane"
 cask "gitup"
-cask "google-chrome-canary"
 cask "gpgtools"
 cask "haskell-for-mac"
 cask "imageoptim"
@@ -121,16 +123,14 @@ cask "swiftybeaver"
 cask "transmission"
 cask "visual-studio-code"
 cask "wireshark"
+cask "caskroom/versions/google-chrome-canary"
 mas "1Password", id: 443987910
 mas "Affinity Designer", id: 824171161
 mas "Affinity Photo", id: 824183456
 mas "Base", id: 402383384
-mas "DaisyDisk", id: 411643860
 mas "Drop", id: 1173932628
 mas "Easy APNs Provider", id: 989622350
-mas "GarageBand", id: 682658836
 mas "Haskell", id: 841285201
-mas "iMovie", id: 408981434
 mas "Kaleidoscope", id: 587512244
 mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
@@ -148,3 +148,4 @@ mas "Transmit", id: 403388562
 mas "Tweetbot", id: 557168941
 mas "Xcode", id: 497799835
 mas "xScope", id: 889428659
+mas "DaisyDisk", id: 411643860

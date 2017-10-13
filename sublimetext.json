@@ -1,0 +1,12 @@
+{
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+	"font_face": "Fira Code Retina",
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"theme": "Material-Theme.sublime-theme",
+	"translate_tabs_to_spaces": true,
+    "show_encoding": true
+}
