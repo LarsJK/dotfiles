@@ -51,7 +51,7 @@ ZSH_THEME=""
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting rails ruby)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -86,6 +86,34 @@ export PATH=$PATH:$HOME/.composer/vendor/bin
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Use NeoVim
 alias vim=nvim
+
+# Swift
 if which swiftenv > /dev/null; then eval "$(swiftenv init -)"; fi
+
+# ZSH Completions
 fpath=(/usr/local/share/zsh-completions $fpath)
+
+# PHP
+# export PATH="$(brew --prefix homebrew/php/php72)/bin:$PATH"
+
+# Node
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Ruby
+eval "$(rbenv init -)"
+
+# Android / React Native
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+# Java (Uncomment to use newest installed java)
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home
+
+# Rust / Cargo
+export PATH=$HOME/.cargo/env:$PATH

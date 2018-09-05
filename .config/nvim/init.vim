@@ -30,7 +30,6 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'mitsuse/autocomplete-swift'
 Plug 'Shougo/vimproc', {'do' : 'make'}
 Plug 'Shougo/unite.vim'
-Plug 'm2mdas/phpcomplete-extended'
 Plug 'Shougo/neosnippet'
 Plug 'Shougo/neosnippet-snippets'
 
