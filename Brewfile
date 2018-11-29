@@ -11,6 +11,7 @@ tap "jmacdonald/amp"
 tap "kylef/formulae"
 tap "mono0926/license-plist"
 tap "neovim/neovim"
+tap "prisma/prisma"
 tap "vapor/tap"
 tap "yonaskolb/beak", "https://github.com/yonaskolb/Beak.git"
 brew "autoconf"
@@ -20,6 +21,7 @@ brew "gettext"
 brew "carthage"
 brew "cocoapods"
 brew "ctags"
+brew "dashing"
 brew "libgpg-error"
 brew "libassuan"
 brew "libgcrypt"
@@ -58,7 +60,6 @@ brew "unibilium"
 brew "neovim"
 brew "nvm"
 brew "optipng"
-brew "phantomjs"
 brew "php"
 brew "php-code-sniffer"
 brew "php-cs-fixer"
@@ -72,7 +73,7 @@ brew "qcachegrind"
 brew "rbenv"
 brew "reattach-to-user-namespace"
 brew "redis"
-brew "ruby", link: false
+brew "ruby"
 brew "sourcekitten"
 brew "sourcery"
 brew "swiftformat"
@@ -94,6 +95,7 @@ brew "danger/tap/danger-swift"
 brew "ibm-swift/kitura/kitura"
 brew "kylef/formulae/swiftenv"
 brew "mono0926/license-plist/license-plist"
+brew "prisma/prisma/prisma"
 brew "vapor/tap/cmysql"
 brew "vapor/tap/vapor"
 brew "yonaskolb/beak/beak"
@@ -137,10 +139,10 @@ cask "sketch"
 cask "skype"
 cask "subler"
 cask "swiftybeaver"
+cask "timing"
 cask "transmission"
 cask "visual-studio-code"
 cask "wireshark"
-mas "1Password", id: 443987910
 mas "1Password 7", id: 1333542190
 mas "Affinity Designer", id: 824171161
 mas "Affinity Photo", id: 824183456
@@ -151,7 +153,6 @@ mas "Drop", id: 1173932628
 mas "Easy APNs Provider", id: 989622350
 mas "Evernote", id: 406056744
 mas "Haskell", id: 841285201
-mas "Install macOS 10.14 Beta", id: 0
 mas "Kaleidoscope", id: 587512244
 mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
@@ -164,6 +165,7 @@ mas "Paste JSON as Code • quicktype", id: 1330801220
 mas "Pocket", id: 568494494
 mas "Postico", id: 1031280567
 mas "Quiver", id: 866773894
+mas "Speedtest", id: 1153157709
 mas "The Unarchiver", id: 425424353
 mas "Things3", id: 904280696
 mas "Tomato One", id: 907364780
